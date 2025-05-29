@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Cheers Tag</title>
+    <style>
+        .font-bodoni {
+            font-family: 'Libre Bodoni', 'Bodoni MT Condensed', serif;
+            /* font-weight: 820; */
+            /* Bold */
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar section started -->
+    <div class="top-0 py-1 lg:py-1 w-full bg-[#f5e7d6] lg:relative z-50">
+        <nav class="z-10 sticky top-0 left-0 right-0 max-w-4xl xl:max-w-5xl mx-auto px-5 py-2.5 lg:border-none lg:py-1">
+            <div class="flex items-center justify-between">
+                <button>
+                    <div class="flex items-center space-x-2">
+                        <h2 class="font-bold font-bodoni text-[#722f37] text-[40px] ">
+                            Cheers<span class="text-[#802311]">Tag</span>
+                        </h2>
+                    </div>
+                </button>
+                <div class="hidden lg:block">
+                    <ul class="flex space-x-10 text-base font-bold text-black/60 dark:text-white">
+                        <li
+                            class="hover:w-fit transition-all text-[#722f37] hover:text-[#802311] duration-100 ease-linear">
+                            <a href="../index.html">Home</a>
+                        </li>
+                        <li
+                            class="hover:w-fit transition-all text-[#802311] hover:text-[#802311] duration-100 ease-linear">
+                            <a href="./boodschap.html">Maak je unieke boodschap</a>
+                        </li>
+                        <li
+                            class="hover:w-fit transition-all text-[#722f37] hover:text-[#802311] duration-100 ease-linear">
+                            <a href="./werkt.html">Hoe het werkt</a>
+                        </li>
+                        <li
+                            class="hover:w-fit transition-all text-[#722f37] hover:text-[#802311] duration-100 ease-linear">
+                            <a href="./over-ons.html">Over ons</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="hidden lg:flex lg:items-center gap-x-2">
+
+                    <button
+                        class="flex items-center justify-center rounded-md bg-[#722f37] text-white px-6 py-2 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200">Partners</button>
+                </div>
+                <div class="flex items-center justify-center lg:hidden">
+                    <button class="focus:outline-none text-slate-200 dark:text-white"><svg stroke="currentColor"
+                            fill="currentColor" stroke-width="0" viewBox="0 0 20 20" aria-hidden="true"
+                            class="text-2xl text-slate-800 dark:text-white focus:outline-none active:scale-110 active:text-red-500"
+                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                        </svg></button>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar section ended -->
+
+    <!-- form section started -->
+    <section>
+        <div class="flex items-center justify-center p-10 my-8 ">
+            <!-- Author: FormBold Team -->
+            <form class="max-w-auto w-fit mx-auto mt-20 p-5 bg-white rounded-lg shadow-xl">
+                <h2 class="text-2xl font-bold font-bodoni text-[#722f37] mb-6">Feedback Form</h2>
+                <div class="mb-5">
+                    <label class="block text-[#722f37] font-bold mb-2" for="feedback">
+                        Feedback:
+                    </label>
+                    <input type="text" name="name" id="name" placeholder="Full Name"
+                        class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                </div>
+                <div class="-mx-3 flex flex-wrap">
+
+                    <div class="w-full px-3 sm:w-1/2">
+                        <div class="mb-5">
+                            <label class="block text-[#722f37] font-bold mb-2" for="feedback">
+                                Feedback:
+                            </label>
+                            <input type="text" name="area" id="area" placeholder="Enter area"
+                                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                        </div>
+                    </div>
+                    <div class="w-full px-3 sm:w-1/2">
+                        <div class="mb-5">
+                            <label class="block text-[#722f37] font-bold mb-2" for="feedback">
+                                Feedback:
+                            </label>
+                            <input type="text" name="city" id="city" placeholder="Enter city"
+                                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-5">
+                    <label class="block text-[#722f37] font-bold mb-2" for="feedback">
+                        Feedback:
+                    </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email"
+                        class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                </div>
+                <div class="w-auto">
+                    <div class="mb-5">
+                        <label class="block text-[#722f37] font-bold mb-2" for="feedback">
+                            Feedback:
+                        </label>
+                        <input type="date" name="date" id="date"
+                            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <label class="block text-[#722f37] font-bold mb-2" for="feedback">
+                        Feedback:
+                    </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email"
+                        class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                </div>
+                <div class="mb-4">
+                    <label class="block text-[#722f37] font-bold mb-2" for="feedback">
+                        Feedback:
+                    </label>
+                    <textarea
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="feedback" rows="5" placeholder="Enter your feedback"></textarea>
+                </div>
+                <hr class="w-[100%] mx-auto text-gray-300 my-2">
+                <!--price plans section  -->
+                <div class=" w-Full py-4 ">
+                    <div class="flex-col justify-between pb-4">
+                        <h2 class="text-2xl font-bold font-bodoni text-[#722f37] mb-2">Feedback Form</h2>
+                    </div>
+                    <!-- pricing section stack started -->
+                    <div class="grid gap-3 grid-cols-1" id="accordion-collapse-body-1">
+
+                        <label
+                            class="has-[:checked]:bg-white/30 has-[:checked]:text-indigo-900 has-[:checked]:ring-indigo-200 has-[:checked]:ring-2 cursor-pointer bg-white/40 hover:bg-white/20 w-auto px-3 py-1 rounded-md flex justify-between items-center shadow">
+                            <!-- icon and description  -->
+                            <div class="flex items-center text-center gap-x-2">
+                                <div class=" items-center p-2 rounded-full bg-[#f5e7d6]">
+                                    <img src="../assets/icons/camera.svg" alt="camera" class="h-9 w-9  align-center">
+                                </div>
+                                <div class="p-2">
+                                    <p class="font-semibold text-lg text-start leading-tight">Tool with sidebar</p>
+                                    <p class="text-gray-600 text-start leading-tight">Description of tool</p>
+                                </div>
+                            </div>
+                            <!-- price and input section  -->
+                            <div class="flex text-center items-center gap-x-2">
+                                <p class="text-[#722f37]">€7.86</p>
+                                <input type="radio" name="payment" class="checked:border-indigo-500 h-5 w-5" />
+                            </div>
+                        </label>
+
+                        <label
+                            class="has-[:checked]:bg-white/30 has-[:checked]:text-indigo-900 has-[:checked]:ring-indigo-200 has-[:checked]:ring-2 cursor-pointer bg-white/40 hover:bg-white/20 w-auto px-3 py-1 rounded-md flex justify-between items-center shadow">
+                            <!-- icon and description  -->
+                            <div class="flex items-center text-center gap-x-2">
+                                <div class=" items-center p-2 rounded-full bg-[#f5e7d6]">
+                                    <img src="../assets/icons/microphone.svg" alt="microphone"
+                                        class="h-9 w-9  align-center">
+                                </div>
+                                <div class="p-2">
+                                    <p class="font-semibold text-lg">Tool with sidebar</p>
+                                    <span class="text-gray-600">Description of tool</span>
+                                </div>
+                            </div>
+                            <!-- price and input section  -->
+                            <div class="flex text-center items-center gap-x-2">
+                                <p class="text-[#722f37]">€7.86</p>
+                                <input type="radio" name="payment" class="checked:border-indigo-500 h-5 w-5" />
+                            </div>
+                        </label>
+
+                        <label
+                            class="has-[:checked]:bg-white/30 has-[:checked]:text-indigo-900 has-[:checked]:ring-indigo-200 has-[:checked]:ring-2 cursor-pointer bg-white/40 hover:bg-white/20 w-auto px-3 py-1 rounded-md flex justify-between items-center shadow">
+                            <!-- icon and description  -->
+                            <div class="flex items-center text-center gap-x-2">
+                                <div class=" items-center p-2 rounded-full bg-[#f5e7d6]">
+                                    <img src="../assets/icons/video-camera.svg" alt="video-camera"
+                                        class="h-9 w-9  align-center">
+                                </div>
+                                <div class="p-2">
+                                    <p class="font-semibold text-lg">Tool with sidebar</p>
+                                    <span class="text-gray-600">Description of tool</span>
+                                </div>
+                            </div>
+                            <!-- price and input section  -->
+                            <div class="flex text-center items-center gap-x-2">
+                                <p class="text-[#722f37]">€7.86</p>
+                                <input type="radio" name="payment" class="checked:border-indigo-500 h-5 w-5" />
+                            </div>
+                        </label>
+                    </div>
+                    <!-- pricing section stack ended -->
+                </div>
+                <!-- check box -->
+                <div class="flex items-center mb-4 mt-2">
+            <input
+              type="checkbox"
+              id="rememberMe"
+              class="w-4 h-4 border border-gray-300 rounded bg-gray-50 mt-1 self-start focus:ring-3 focus:ring-blue-300"
+            />
+            <label for="rememberMe" class="ml-2 text-sm leading-tight text-gray-600">
+              <span class="text-[#722f37]">Ik</span> ga akkoord met de <span class="text-[#722f37]">algemene voorwaarden</span> en het <span class="text-[#722f37]">privacybeleid</span><br />van VinNote
+            </label>
+          </div>
+                <div>
+                    <button
+                        class="hover:shadow-form w-full rounded-md bg-[#722f37] py-3 px-8 text-center text-base font-semibold text-white outline-none">
+                        Book Appointment
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- form section ended -->
+
+
+    <!-- footer started  -->
+    <footer class="w-full bg-[#722f37]">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <!--Grid-->
+            <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-14 gap-4 lg:gap-8 pt-10 pb-4">
+                <div class="col-span-full lg:col-span-4 lg:col-start-3 mb-10 lg:mb-0">
+                    <a href="#" class="flex justify-center lg:justify-start">
+                        <h4 class="text-lg text-white font-medium mb-3">CheersTag.com</h4>
+                    </a>
+                    <p class=" text-sm text-white lg:max-w-xs text-center lg:text-left">Verbind uw geschenken met
+                        persoonlijke
+                        boodschappen. Maak van elk cadeau een blijvende herinnering.</p>
+                    <!-- footer icons  -->
+                    <div class="py-3 flex mt-4 space-x-3 justify-center lg:justify-start sm:mt-0">
+                        <!-- facebook  -->
+                        <a href="#" class="w-7 h-7 flex justify-center items-center ">
+                            <img src="../assets/icons/facebook.svg" alt="facebook">
+                        </a>
+                        <!-- instagram  -->
+                        <a href="#" class="w-7.5 h-7 flex justify-center items-center ">
+                            <img src="../assets/icons/instagram.svg" alt="instagram">
+                        </a>
+                        <!-- twitter  -->
+                        <a href="#" class="w-8 h-7 mx-0.5 flex justify-center items-center ">
+                            <img src="../assets/icons/twitter.svg" alt="twitter">
+                        </a>
+                        <!-- mail  -->
+                        <a href="#" class="w-9 h-6 mx-2 flex justify-center items-center ">
+                            <img src="../assets/icons/mail.svg" alt="mail">
+                        </a>
+
+                    </div>
+                </div>
+                <!--End Col-->
+                <div class="lg:col-span-4 lg:col-start-7 text-center sm:text-left">
+                    <h4 class="text-lg text-white font-medium mb-3 font-bodoni">Links</h4>
+                    <ul class="text-sm  transition-all duration-500">
+                        <li class="mb-3"><a href="#" class="text-white hover:text-white">Home</a></li>
+                        <li class="mb-3"><a href="#" class="text-white hover:text-white">Hoe het werkt</a></li>
+                        <li class="mb-3"><a href="#" class="text-white hover:text-white">Over ons</a></li>
+                        <li class="mb-3"><a href="#" class="text-white hover:text-white">Contact</a></li>
+                        <li><a href="#" class="text-white hover:text-white">Partners</a></li>
+                    </ul>
+                </div>
+                <!--End Col-->
+                <div class="lg:col-span-2 text-center sm:text-left">
+                    <h4 class="text-lg text-white font-medium mb-3">Contact</h4>
+                    <ul class="text-sm transition-all duration-500">
+                        <li class="mb-3"><a href="#" class="text-white hover:text-white">CheersTag.com</a></li>
+                        <li class="mb-3"><a href="#" class="text-white hover:text-white">Amstelveen</a></li>
+                        <li class="mb-3"><a href="#" class="text-white hover:text-white">info@cheerstag.com</a></li>
+                        <li><a href="#" class="text-white hover:text-white">+31 (0)6 42752700</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- horizontal line  -->
+            <hr class="w-[72%] mx-auto text-[#8b4850a6] my-2">
+            <!--Grid-->
+            <div class="py-4">
+                <div class="flex items-center justify-center flex-col gap-48 lg:justify-around  lg:flex-row">
+                    <span class="text-sm text-white">©<a href="#">pagedone</a>2024, All rights reserved.</span>
+                    <ul class="flex items-center gap-9 mt-4 lg:mt-0">
+                        <li><a href="#" class="text-sm text-white">Privacybeleid</a></li>
+                        <li><a href="#" class="text-sm text-white">Gebruiksvoorwaarden</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ended  -->
+
+</body>
+
+</html>
