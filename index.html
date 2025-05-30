@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
-      <style>
+    <style>
         .font-bodoni {
             font-family: 'Libre Bodoni', 'Bodoni MT Condensed', serif;
         }
@@ -50,14 +50,12 @@
 
                 <!-- CTA Button -->
                 <div class="">
-                    <a 
-                    class="mr-10 bg-[#722f37] text-white px-7 py-2 rounded-md hover:bg-[#5a252c] transition duration-300 hidden md:block"
-                    href="./partners.html">
-                        <button
-                        >
-                        Partners
-                    </button>
-                </a>
+                    <a class="mr-10 bg-[#722f37] text-white px-7 py-2 rounded-md hover:bg-[#5a252c] transition duration-300 hidden md:block"
+                        href="./partners.html">
+                        <button>
+                            Partners
+                        </button>
+                    </a>
 
                     <!-- Mobile menu button (only visible on mobile) -->
                     <button type="button" id="mobile-menu-button"
@@ -86,17 +84,21 @@
             <div class="px-2 pt-2 pb-3 space-y-2 sm:px-3 text-center items-center">
                 <a href="../index.html"
                     class="block px-3 py-2 rounded-md text-base font-medium text-[#722f37] hover:text-[#f5e7d6] hover:bg-[#722f37]">Home</a>
-                <a href="./boodschap.html"
+                <a href="./pages/boodschap.html"
                     class="block px-3 py-2 rounded-md text-base font-medium text-[#722f37] hover:text-[#f5e7d6] hover:bg-[#722f37]">Maak
                     je unieke boodschap</a>
-                <a href="./werkt.html"
-                    class="block px-3 py-2 rounded-md text-base font-medium text-[#722f37] hover:text-[#f5e7d6] hover:bg-[#722f37]">Home</a>
-                <a href="./over-ons.html"
-                    class="block px-3 py-2 rounded-md text-base font-medium text-[#722f37] hover:text-[#f5e7d6] hover:bg-[#722f37]">Home</a>
-                <button
+                <a href="./pages/werkt.html"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-[#722f37] hover:text-[#f5e7d6] hover:bg-[#722f37]">Hoe
+                    het werkt</a>
+                <a href="./pages/over-ons.html"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-[#722f37] hover:text-[#f5e7d6] hover:bg-[#722f37]">Over
+                    ons</a>
+                <a href="./pages/partners.html"
                     class="flex justify-center items-center w-full bg-[#722f37] text-white px-4 py-2 rounded-md hover:bg-[#5a252c] transition duration-300 mt-2">
-                    Partners
-                </button>
+                    <button>
+                        Partners
+                    </button>
+                </a>
             </div>
         </div>
     </nav>
@@ -136,6 +138,36 @@
 
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+       <script>
+        // Toggle mobile menu
+        document.getElementById('mobile-menu-button').addEventListener('click', function () {
+            const menu = document.getElementById('mobile-menu');
+            const isHidden = menu.classList.contains('hidden');
+
+            // Toggle menu visibility
+            menu.classList.toggle('hidden');
+
+            // Toggle hamburger/close icons
+            const hamburger = this.querySelector('svg:not(.hidden)');
+            const close = this.querySelector('svg.hidden');
+            hamburger.classList.toggle('hidden');
+            close.classList.toggle('hidden');
+
+            // Update aria-expanded attribute
+            this.setAttribute('aria-expanded', isHidden ? 'true' : 'false');
+        });
+    </script>
 </body>
 
 </html>

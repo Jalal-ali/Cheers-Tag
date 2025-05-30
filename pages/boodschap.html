@@ -12,8 +12,9 @@
         }
     </style>
 </head>
+
 <body>
-     <!-- navbar section started -->
+    <!-- navbar section started -->
     <nav class="bg-[#f5e7d6] border-b border-[#d4cabe]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16 items-center">
@@ -49,14 +50,12 @@
 
                 <!-- CTA Button -->
                 <div class="">
-                    <a 
-                    class="mr-10 bg-[#722f37] text-white px-7 py-2 rounded-md hover:bg-[#5a252c] transition duration-300 hidden md:block"
-                    href="./partners.html">
-                        <button
-                        >
-                        Partners
-                    </button>
-                </a>
+                    <a class="mr-10 bg-[#722f37] text-white px-7 py-2 rounded-md hover:bg-[#5a252c] transition duration-300 hidden md:block"
+                        href="./partners.html">
+                        <button>
+                            Partners
+                        </button>
+                    </a>
 
                     <!-- Mobile menu button (only visible on mobile) -->
                     <button type="button" id="mobile-menu-button"
@@ -89,13 +88,17 @@
                     class="block px-3 py-2 rounded-md text-base font-medium text-[#722f37] hover:text-[#f5e7d6] hover:bg-[#722f37]">Maak
                     je unieke boodschap</a>
                 <a href="./werkt.html"
-                    class="block px-3 py-2 rounded-md text-base font-medium text-[#722f37] hover:text-[#f5e7d6] hover:bg-[#722f37]">Home</a>
+                    class="block px-3 py-2 rounded-md text-base font-medium text-[#722f37] hover:text-[#f5e7d6] hover:bg-[#722f37]">Hoe
+                    het werkt</a>
                 <a href="./over-ons.html"
-                    class="block px-3 py-2 rounded-md text-base font-medium text-[#722f37] hover:text-[#f5e7d6] hover:bg-[#722f37]">Home</a>
-                <button
+                    class="block px-3 py-2 rounded-md text-base font-medium text-[#722f37] hover:text-[#f5e7d6] hover:bg-[#722f37]">Over
+                    ons</a>
+                <a href="./partners.html"
                     class="flex justify-center items-center w-full bg-[#722f37] text-white px-4 py-2 rounded-md hover:bg-[#5a252c] transition duration-300 mt-2">
-                    Partners
-                </button>
+                    <button>
+                        Partners
+                    </button>
+                </a>
             </div>
         </div>
     </nav>
@@ -104,154 +107,159 @@
     <!-- form section started -->
     <section>
         <div class="flex items-center justify-center p-4 md:p-10 my-4 md:my-8">
-    <!-- Author: FormBold Team -->
-    <form class="w-full max-w-auto md:w-fit mx-auto mt-8 md:mt-20 p-4 md:p-5 bg-white rounded-lg shadow-xl">
-        <h2 class="text-xl md:text-2xl font-bold font-bodoni text-[#722f37] mb-4 md:mb-6">Feedback Form</h2>
-        
-        <div class="mb-4 md:mb-5">
-            <label class="block text-[#722f37] font-bold mb-1 md:mb-2" for="name">
-                Full Name:
-            </label>
-            <input type="text" name="name" id="name" placeholder="Full Name"
-                class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 md:py-3 px-4 md:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
-        </div>
-        
-        <div class="-mx-2 md:-mx-3 flex flex-wrap">
-            <div class="w-full px-2 md:px-3 sm:w-1/2">
+            <!-- Author: FormBold Team -->
+            <form class="w-full max-w-auto md:w-fit mx-auto mt-8 md:mt-20 p-4 md:p-5 bg-white rounded-lg shadow-xl">
+                <h2 class="text-xl md:text-2xl font-bold font-bodoni text-[#722f37] mb-4 md:mb-6">Feedback Form</h2>
+
                 <div class="mb-4 md:mb-5">
-                    <label class="block text-[#722f37] font-bold mb-1 md:mb-2" for="area">
-                        Area:
+                    <label class="block text-[#722f37] font-bold mb-1 md:mb-2" for="name">
+                        Full Name:
                     </label>
-                    <input type="text" name="area" id="area" placeholder="Enter area"
+                    <input type="text" name="name" id="name" placeholder="Full Name"
                         class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 md:py-3 px-4 md:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
                 </div>
-            </div>
-            <div class="w-full px-2 md:px-3 sm:w-1/2">
+
+                <div class="-mx-2 md:-mx-3 flex flex-wrap">
+                    <div class="w-full px-2 md:px-3 sm:w-1/2">
+                        <div class="mb-4 md:mb-5">
+                            <label class="block text-[#722f37] font-bold mb-1 md:mb-2" for="area">
+                                Area:
+                            </label>
+                            <input type="text" name="area" id="area" placeholder="Enter area"
+                                class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 md:py-3 px-4 md:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                        </div>
+                    </div>
+                    <div class="w-full px-2 md:px-3 sm:w-1/2">
+                        <div class="mb-4 md:mb-5">
+                            <label class="block text-[#722f37] font-bold mb-1 md:mb-2" for="city">
+                                City:
+                            </label>
+                            <input type="text" name="city" id="city" placeholder="Enter city"
+                                class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 md:py-3 px-4 md:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                        </div>
+                    </div>
+                </div>
+
                 <div class="mb-4 md:mb-5">
-                    <label class="block text-[#722f37] font-bold mb-1 md:mb-2" for="city">
-                        City:
+                    <label class="block text-[#722f37] font-bold mb-1 md:mb-2" for="email">
+                        Email:
                     </label>
-                    <input type="text" name="city" id="city" placeholder="Enter city"
+                    <input type="email" name="email" id="email" placeholder="Enter your email"
                         class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 md:py-3 px-4 md:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
                 </div>
-            </div>
-        </div>
 
-        <div class="mb-4 md:mb-5">
-            <label class="block text-[#722f37] font-bold mb-1 md:mb-2" for="email">
-                Email:
-            </label>
-            <input type="email" name="email" id="email" placeholder="Enter your email"
-                class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 md:py-3 px-4 md:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
-        </div>
-        
-        <div class="mb-4 md:mb-5">
-            <label class="block text-[#722f37] font-bold mb-1 md:mb-2" for="date">
-                Date:
-            </label>
-            <input type="date" name="date" id="date"
-                class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 md:py-3 px-4 md:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
-        </div>
-        
-        <div class="mb-4 md:mb-5">
-            <label class="block text-[#722f37] font-bold mb-1 md:mb-2" for="feedback">
-                Feedback:
-            </label>
-            <textarea
-                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="feedback" rows="4" placeholder="Enter your feedback"></textarea>
-        </div>
-        
-        <hr class="w-[100%] mx-auto text-gray-300 my-2">
-        
-        <!--price plans section -->
-        <div class="w-full py-4">
-            <div class="flex-col justify-between pb-4">
-                <h2 class="text-xl md:text-2xl font-bold font-bodoni text-[#722f37] mb-2">Feedback Form</h2>
-            </div>
-            
-            <!-- pricing section stack started -->
-            <div class="grid gap-2 md:gap-3 grid-cols-1" id="accordion-collapse-body-1">
-                <label
-                    class="has-[:checked]:bg-white/30 has-[:checked]:text-indigo-900 has-[:checked]:ring-indigo-200 has-[:checked]:ring-2 cursor-pointer bg-white/40 hover:bg-white/20 w-auto px-2 md:px-3 py-1 rounded-md flex justify-between items-center shadow">
-                    <!-- icon and description -->
-                    <div class="flex items-center gap-x-2">
-                        <div class="items-center p-1 md:p-2 rounded-full bg-[#f5e7d6]">
-                            <img src="../assets/icons/camera.svg" alt="camera" class="h-7 w-7 md:h-9 md:w-9">
-                        </div>
-                        <div class="p-1 md:p-2">
-                            <p class="font-semibold text-base md:text-lg text-start leading-tight">Tool with sidebar</p>
-                            <p class="text-gray-600 text-sm md:text-base text-start leading-tight">Description of tool</p>
-                        </div>
-                    </div>
-                    <!-- price and input section -->
-                    <div class="flex items-center gap-x-2">
-                        <p class="text-[#722f37] text-sm md:text-base">€7.86</p>
-                        <input type="radio" name="payment" class="checked:border-indigo-500 h-4 w-4 md:h-5 md:w-5" />
-                    </div>
-                </label>
+                <div class="mb-4 md:mb-5">
+                    <label class="block text-[#722f37] font-bold mb-1 md:mb-2" for="date">
+                        Date:
+                    </label>
+                    <input type="date" name="date" id="date"
+                        class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 md:py-3 px-4 md:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                </div>
 
-                <label
-                    class="has-[:checked]:bg-white/30 has-[:checked]:text-indigo-900 has-[:checked]:ring-indigo-200 has-[:checked]:ring-2 cursor-pointer bg-white/40 hover:bg-white/20 w-auto px-2 md:px-3 py-1 rounded-md flex justify-between items-center shadow">
-                    <!-- icon and description -->
-                    <div class="flex items-center gap-x-2">
-                        <div class="items-center p-1 md:p-2 rounded-full bg-[#f5e7d6]">
-                            <img src="../assets/icons/microphone.svg" alt="microphone" class="h-7 w-7 md:h-9 md:w-9">
-                        </div>
-                        <div class="p-1 md:p-2">
-                            <p class="font-semibold text-base md:text-lg">Tool with sidebar</p>
-                            <span class="text-gray-600 text-sm md:text-base">Description of tool</span>
-                        </div>
-                    </div>
-                    <!-- price and input section -->
-                    <div class="flex items-center gap-x-2">
-                        <p class="text-[#722f37] text-sm md:text-base">€7.86</p>
-                        <input type="radio" name="payment" class="checked:border-indigo-500 h-4 w-4 md:h-5 md:w-5" />
-                    </div>
-                </label>
+                <div class="mb-4 md:mb-5">
+                    <label class="block text-[#722f37] font-bold mb-1 md:mb-2" for="feedback">
+                        Feedback:
+                    </label>
+                    <textarea
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="feedback" rows="4" placeholder="Enter your feedback"></textarea>
+                </div>
 
-                <label
-                    class="has-[:checked]:bg-white/30 has-[:checked]:text-indigo-900 has-[:checked]:ring-indigo-200 has-[:checked]:ring-2 cursor-pointer bg-white/40 hover:bg-white/20 w-auto px-2 md:px-3 py-1 rounded-md flex justify-between items-center shadow">
-                    <!-- icon and description -->
-                    <div class="flex items-center gap-x-2">
-                        <div class="items-center p-1 md:p-2 rounded-full bg-[#f5e7d6]">
-                            <img src="../assets/icons/video-camera.svg" alt="video-camera" class="h-7 w-7 md:h-9 md:w-9">
-                        </div>
-                        <div class="p-1 md:p-2">
-                            <p class="font-semibold text-base md:text-lg">Tool with sidebar</p>
-                            <span class="text-gray-600 text-sm md:text-base">Description of tool</span>
-                        </div>
+                <hr class="w-[100%] mx-auto text-gray-300 my-2">
+
+                <!--price plans section -->
+                <div class="w-full py-4">
+                    <div class="flex-col justify-between pb-4">
+                        <h2 class="text-xl md:text-2xl font-bold font-bodoni text-[#722f37] mb-2">Feedback Form</h2>
                     </div>
-                    <!-- price and input section -->
-                    <div class="flex items-center gap-x-2">
-                        <p class="text-[#722f37] text-sm md:text-base">€7.86</p>
-                        <input type="radio" name="payment" class="checked:border-indigo-500 h-4 w-4 md:h-5 md:w-5" />
+
+                    <!-- pricing section stack started -->
+                    <div class="grid gap-2 md:gap-3 grid-cols-1" id="accordion-collapse-body-1">
+                        <label
+                            class="has-[:checked]:bg-white/30 has-[:checked]:text-indigo-900 has-[:checked]:ring-indigo-200 has-[:checked]:ring-2 cursor-pointer bg-white/40 hover:bg-white/20 w-auto px-2 md:px-3 py-1 rounded-md flex justify-between items-center shadow">
+                            <!-- icon and description -->
+                            <div class="flex items-center gap-x-2">
+                                <div class="items-center p-1 md:p-2 rounded-full bg-[#f5e7d6]">
+                                    <img src="../assets/icons/camera.svg" alt="camera" class="h-7 w-7 md:h-9 md:w-9">
+                                </div>
+                                <div class="p-1 md:p-2">
+                                    <p class="font-semibold text-base md:text-lg text-start leading-tight">Tool with
+                                        sidebar</p>
+                                    <p class="text-gray-600 text-sm md:text-base text-start leading-tight">Description
+                                        of tool</p>
+                                </div>
+                            </div>
+                            <!-- price and input section -->
+                            <div class="flex items-center gap-x-2">
+                                <p class="text-[#722f37] text-sm md:text-base">€7.86</p>
+                                <input type="radio" name="payment"
+                                    class="checked:border-indigo-500 h-4 w-4 md:h-5 md:w-5" />
+                            </div>
+                        </label>
+
+                        <label
+                            class="has-[:checked]:bg-white/30 has-[:checked]:text-indigo-900 has-[:checked]:ring-indigo-200 has-[:checked]:ring-2 cursor-pointer bg-white/40 hover:bg-white/20 w-auto px-2 md:px-3 py-1 rounded-md flex justify-between items-center shadow">
+                            <!-- icon and description -->
+                            <div class="flex items-center gap-x-2">
+                                <div class="items-center p-1 md:p-2 rounded-full bg-[#f5e7d6]">
+                                    <img src="../assets/icons/microphone.svg" alt="microphone"
+                                        class="h-7 w-7 md:h-9 md:w-9">
+                                </div>
+                                <div class="p-1 md:p-2">
+                                    <p class="font-semibold text-base md:text-lg">Tool with sidebar</p>
+                                    <span class="text-gray-600 text-sm md:text-base">Description of tool</span>
+                                </div>
+                            </div>
+                            <!-- price and input section -->
+                            <div class="flex items-center gap-x-2">
+                                <p class="text-[#722f37] text-sm md:text-base">€7.86</p>
+                                <input type="radio" name="payment"
+                                    class="checked:border-indigo-500 h-4 w-4 md:h-5 md:w-5" />
+                            </div>
+                        </label>
+
+                        <label
+                            class="has-[:checked]:bg-white/30 has-[:checked]:text-indigo-900 has-[:checked]:ring-indigo-200 has-[:checked]:ring-2 cursor-pointer bg-white/40 hover:bg-white/20 w-auto px-2 md:px-3 py-1 rounded-md flex justify-between items-center shadow">
+                            <!-- icon and description -->
+                            <div class="flex items-center gap-x-2">
+                                <div class="items-center p-1 md:p-2 rounded-full bg-[#f5e7d6]">
+                                    <img src="../assets/icons/video-camera.svg" alt="video-camera"
+                                        class="h-7 w-7 md:h-9 md:w-9">
+                                </div>
+                                <div class="p-1 md:p-2">
+                                    <p class="font-semibold text-base md:text-lg">Tool with sidebar</p>
+                                    <span class="text-gray-600 text-sm md:text-base">Description of tool</span>
+                                </div>
+                            </div>
+                            <!-- price and input section -->
+                            <div class="flex items-center gap-x-2">
+                                <p class="text-[#722f37] text-sm md:text-base">€7.86</p>
+                                <input type="radio" name="payment"
+                                    class="checked:border-indigo-500 h-4 w-4 md:h-5 md:w-5" />
+                            </div>
+                        </label>
                     </div>
-                </label>
-            </div>
-            <!-- pricing section stack ended -->
+                    <!-- pricing section stack ended -->
+                </div>
+
+                <!-- check box -->
+                <div class="flex items-start mb-4 mt-2">
+                    <input type="checkbox" id="rememberMe"
+                        class="w-4 h-4 border border-gray-300 rounded bg-gray-50 mt-1 focus:ring-3 focus:ring-blue-300" />
+                    <label for="rememberMe" class="ml-2 text-xs md:text-sm leading-tight text-gray-600">
+                        <span class="text-[#722f37]">Ik</span> ga akkoord met de <span class="text-[#722f37]">algemene
+                            voorwaarden</span> en het <span class="text-[#722f37]">privacybeleid</span><br />van VinNote
+                    </label>
+                </div>
+
+                <div>
+                    <button
+                        class="hover:shadow-form w-full rounded-md bg-[#722f37] py-2 md:py-3 px-4 md:px-8 text-sm md:text-base font-semibold text-white outline-none">
+                        Bericht versturen
+                    </button>
+                </div>
+            </form>
         </div>
-        
-        <!-- check box -->
-        <div class="flex items-start mb-4 mt-2">
-            <input
-                type="checkbox"
-                id="rememberMe"
-                class="w-4 h-4 border border-gray-300 rounded bg-gray-50 mt-1 focus:ring-3 focus:ring-blue-300"
-            />
-            <label for="rememberMe" class="ml-2 text-xs md:text-sm leading-tight text-gray-600">
-                <span class="text-[#722f37]">Ik</span> ga akkoord met de <span class="text-[#722f37]">algemene voorwaarden</span> en het <span class="text-[#722f37]">privacybeleid</span><br />van VinNote
-            </label>
-        </div>
-        
-        <div>
-            <button
-                class="hover:shadow-form w-full rounded-md bg-[#722f37] py-2 md:py-3 px-4 md:px-8 text-sm md:text-base font-semibold text-white outline-none">
-                Bericht versturen
-            </button>
-        </div>
-    </form>
-</div>
     </section>
     <!-- form section ended -->
 
@@ -327,6 +335,60 @@
     </footer>
     <!-- footer ended  -->
 
-</body>
+    
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <script>
+        // Toggle mobile menu
+        document.getElementById('mobile-menu-button').addEventListener('click', function () {
+            const menu = document.getElementById('mobile-menu');
+            const isHidden = menu.classList.contains('hidden');
+
+            // Toggle menu visibility
+            menu.classList.toggle('hidden');
+
+            // Toggle hamburger/close icons
+            const hamburger = this.querySelector('svg:not(.hidden)');
+            const close = this.querySelector('svg.hidden');
+            hamburger.classList.toggle('hidden');
+            close.classList.toggle('hidden');
+
+            // Update aria-expanded attribute
+            this.setAttribute('aria-expanded', isHidden ? 'true' : 'false');
+        });
+    </script>
+</body>
 </html>
