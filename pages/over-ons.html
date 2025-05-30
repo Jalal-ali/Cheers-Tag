@@ -15,56 +15,93 @@
 
 <body>
     <!-- navbar section started -->
-    <div class="top-0 py-1 lg:py-1 w-full bg-[#f5e7d6] lg:relative z-50">
-        <nav class="z-10 sticky top-0 left-0 right-0 max-w-4xl xl:max-w-5xl mx-auto px-5 py-2.5 lg:border-none lg:py-1">
-            <div class="flex items-center justify-between">
-                <button>
-                    <div class="flex items-center space-x-2">
+    <nav class="bg-[#f5e7d6] border-b border-[#d4cabe]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <!-- brand name  -->
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-xl font-bold text-[#722f37]">
                         <h2 class="font-bold font-bodoni text-[#722f37] text-[40px] ">
                             Cheers<span class="text-[#802311]">Tag</span>
                         </h2>
+                    </a>
+                </div>
+
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-xl font-bold text-[#722f37]"></a>
+                </div>
+
+                <!-- Desktop Menu with equal spacing -->
+                <div class="hidden md:flex flex-1 justify-center items-center mx-auto">
+                    <div class="flex space-x-4">
+                        <a href="../index.html"
+                            class="text-[#722f37] hover:text-[#802311] px-3 py-2 text-sm font-semibold">Home</a>
+                        <a href="./boodschap.html"
+                            class="text-[#722f37] hover:text-[#802311] px-3 py-2 text-sm font-semibold">Maak je unieke
+                            boodschap</a>
+                        <a href="./werkt.html"
+                            class="text-[#722f37] hover:text-[#802311] px-3 py-2 text-sm font-semibold">Hoe het
+                            werkt</a>
+                        <a href="./over-ons.html"
+                            class="text-[#802311] hover:text-[#802311] px-3 py-2 text-sm font-bold">Over ons</a>
                     </div>
-                </button>
-                <div class="hidden lg:block">
-                    <ul class="flex space-x-10 text-base font-bold text-black/60 dark:text-white">
-                        <li
-                            class="hover:w-fit transition-all text-[#722f37] hover:text-[#802311] duration-100 ease-linear">
-                            <a href="../index.html">Home</a>
-                        </li>
-                        <li
-                            class="hover:w-fit transition-all text-[#722f37] hover:text-[#802311] duration-100 ease-linear">
-                            <a href="./boodschap.html">Maak je unieke boodschap</a>
-                        </li>
-                        <li
-                            class="hover:w-fit transition-all text-[#722f37] hover:text-[#802311] duration-100 ease-linear">
-                            <a href="./werkt.html">Hoe het werkt</a>
-                        </li>
-                        <li
-                            class="hover:w-fit transition-all text-[#802311] hover:text-[#802311] duration-100 ease-linear">
-                            <a href="./over-ons.html">Over ons</a>
-                        </li>
-
-                    </ul>
                 </div>
-                <div class="hidden lg:flex lg:items-center gap-x-2">
 
-                    <button
-                        class="flex items-center justify-center rounded-md bg-[#722f37] text-white px-6 py-2 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200">Partners</button>
-                </div>
-                <div class="flex items-center justify-center lg:hidden">
-                    <button class="focus:outline-none text-slate-200 dark:text-white"><svg stroke="currentColor"
-                            fill="currentColor" stroke-width="0" viewBox="0 0 20 20" aria-hidden="true"
-                            class="text-2xl text-slate-800 dark:text-white focus:outline-none active:scale-110 active:text-red-500"
-                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-                                clip-rule="evenodd"></path>
-                        </svg></button>
+                <!-- CTA Button -->
+                <div class="">
+                    <a 
+                    class="mr-10 bg-[#722f37] text-white px-7 py-2 rounded-md hover:bg-[#5a252c] transition duration-300 hidden md:block"
+                    href="./partners.html">
+                        <button
+                        >
+                        Partners
+                    </button>
+                </a>
+
+                    <!-- Mobile menu button (only visible on mobile) -->
+                    <button type="button" id="mobile-menu-button"
+                        class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-[#722f37] hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#722f37]"
+                        aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <!-- Hamburger icon -->
+                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                        <!-- Close icon (hidden by default) -->
+                        <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
                 </div>
             </div>
-        </nav>
-    </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidde" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-2 sm:px-3 text-center items-center">
+                <a href="../index.html"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-[#722f37] hover:text-[#f5e7d6] hover:bg-[#722f37]">Home</a>
+                <a href="./boodschap.html"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-[#722f37] hover:text-[#f5e7d6] hover:bg-[#722f37]">Maak
+                    je unieke boodschap</a>
+                <a href="./werkt.html"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-[#722f37] hover:text-[#f5e7d6] hover:bg-[#722f37]">Home</a>
+                <a href="./over-ons.html"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-[#722f37] hover:text-[#f5e7d6] hover:bg-[#722f37]">Home</a>
+                <button
+                    class="flex justify-center items-center w-full bg-[#722f37] text-white px-4 py-2 rounded-md hover:bg-[#5a252c] transition duration-300 mt-2">
+                    Partners
+                </button>
+            </div>
+        </div>
+    </nav>
     <!-- navbar section ended -->
+
     <section>
         <div class="container mx-auto px-4 py-5 md:py-12 lg:py-10 text-center">
             <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-[#722f37] mb-1 md:mb-1">
