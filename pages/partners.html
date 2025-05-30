@@ -5,10 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <title>Partners</title>
     <style>
-        .font-bodoni {
-            font-family: 'Libre Bodoni', 'Bodoni MT Condensed', serif;
+        .font-montserrat {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .font-fancy {
+            font-family: 'Dancing Script', cursive;
         }
 
         .font-passenger {
@@ -120,71 +126,87 @@
             </p>
         </div>
         <div class="flex justify-center w-full">
+
             <ol class="lg:w-[45%] w-full space-y-4 p-2">
-                <li class="flex justify-start shadow align-center rounded-md bg-gray-100 p-2">
+                <div class="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4 w-full bg-white shadow-sm rounded-lg p-3">                   
+
+                    <!-- Selector -->
+                    <select
+                        class="block w-full sm:w-auto min-w-[180px] px-3 py-2 text-sm border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#722f37] focus:border-[#722f37] transition-all">
+                        <option>Alle locaties</option>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                    </select>
+                    <label class="text-sm font-medium text-gray-700 whitespace-nowrap leading-tight">
+                        5 partners gevonden
+                    </label>
+                </div>
+                <li class="flex justify-start shadow align-center rounded-md bg-white p-2">
                     <div class="flex items-center text-center gap-x-2">
                         <div class=" items-center p-2 rounded-full bg-[#f5e7d6] self-start">
-                            <img src="../assets/icons/location.svg" alt="camera" class="h-6 w-6  align-start ">
+                            <img src="../assets/icons/location.svg" alt="location" class="h-6 w-6  align-start ">
                         </div>
                         <div class="p-2">
-                            <p class="font-semibold text-lg text-start leading-tight">Tool with sidebar</p>
-                            <p class="text-gray-600 text-start leading-tight">Description of tool</p>
-                            <p class="text-gray-600 text-start leading-tight">Description of tool</p>
+                            <p class="font-semibold text-lg text-start leading-tight font-fancy text-[#722f37]">
+                                Wijhandel De Grade To</p>
+                            <p class="text-gray-900 text-start leading-tight">Amsterdamseweg 126</p>
+                            <p class="text-gray-700 text-start leading-tight font-montserrat">1182 HJ Amstelveen
+                            </p>
                         </div>
                     </div>
-
                 </li>
-                <li class="flex justify-start shadow align-center rounded-md bg-gray-100 p-2">
+                <li class="flex justify-start shadow align-center rounded-md bg-white p-2">
                     <div class="flex items-center text-center gap-x-2">
                         <div class=" items-center p-2 rounded-full bg-[#f5e7d6] self-start">
-                            <img src="../assets/icons/location.svg" alt="camera" class="h-6 w-6  align-start ">
+                            <img src="../assets/icons/location.svg" alt="location" class="h-6 w-6  align-start ">
                         </div>
                         <div class="p-2">
-                            <p class="font-semibold text-lg text-start leading-tight">Tool with sidebar</p>
-                            <p class="text-gray-600 text-start leading-tight">Description of tool</p>
-                            <p class="text-gray-600 text-start leading-tight">Description of tool</p>
+                            <p class="font-semibold text-lg text-start leading-tight font-fancy text-[#722f37]">
+                                Wijnoponisbat Hot Paket</p>
+                            <p class="text-gray-900 text-start leading-tight">Stadsplein 75</p>
+                            <p class="text-gray-700 text-start leading-tight font-montserrat">1181 ZA Amstelveen</p>
                         </div>
                     </div>
-
                 </li>
-                <li class="flex justify-start shadow align-center rounded-md bg-gray-100 p-2">
+                <li class="flex justify-start shadow align-center rounded-md bg-white p-2">
                     <div class="flex items-center text-center gap-x-2">
                         <div class=" items-center p-2 rounded-full bg-[#f5e7d6] self-start">
-                            <img src="../assets/icons/location.svg" alt="camera" class="h-6 w-6  align-start ">
+                            <img src="../assets/icons/location.svg" alt="location" class="h-6 w-6  align-start ">
                         </div>
                         <div class="p-2">
-                            <p class="font-semibold text-lg text-start leading-tight">Tool with sidebar</p>
-                            <p class="text-gray-600 text-start leading-tight">Description of tool</p>
-                            <p class="text-gray-600 text-start leading-tight">Description of tool</p>
+                            <p class="font-semibold text-lg text-start leading-tight font-fancy text-[#722f37]">De
+                                Wijchur</p>
+                            <p class="text-gray-900 text-start leading-tight">Damrak 25</p>
+                            <p class="text-gray-700 text-start leading-tight font-montserrat">1012 LG Amsterdam</p>
                         </div>
                     </div>
-
                 </li>
-                <li class="flex justify-start shadow align-center rounded-md bg-gray-100 p-2">
+                <li class="flex justify-start shadow align-center rounded-md bg-white p-2">
                     <div class="flex items-center text-center gap-x-2">
                         <div class=" items-center p-2 rounded-full bg-[#f5e7d6] self-start">
-                            <img src="../assets/icons/location.svg" alt="camera" class="h-6 w-6  align-start ">
+                            <img src="../assets/icons/location.svg" alt="location" class="h-6 w-6  align-start ">
                         </div>
                         <div class="p-2">
-                            <p class="font-semibold text-lg text-start leading-tight">Tool with sidebar</p>
-                            <p class="text-gray-600 text-start leading-tight">Description of tool</p>
-                            <p class="text-gray-600 text-start leading-tight">Description of tool</p>
+                            <p class="font-semibold text-lg text-start leading-tight font-fancy text-[#722f37]">
+                                Wijkparij De Hermitage</p>
+                            <p class="text-gray-900 text-start leading-tight">Herengracht 123</p>
+                            <p class="text-gray-700 text-start leading-tight font-montserrat">1015 BR Amsterdam</p>
                         </div>
                     </div>
-
                 </li>
-                <li class="flex justify-start shadow align-center rounded-md bg-gray-100 p-2">
+                <li class="flex justify-start shadow align-center rounded-md bg-white p-2">
                     <div class="flex items-center text-center gap-x-2">
                         <div class=" items-center p-2 rounded-full bg-[#f5e7d6] self-start">
-                            <img src="../assets/icons/location.svg" alt="camera" class="h-6 w-6  align-start ">
+                            <img src="../assets/icons/location.svg" alt="location" class="h-6 w-6  align-start ">
                         </div>
                         <div class="p-2">
-                            <p class="font-semibold text-lg text-start leading-tight">Tool with sidebar</p>
-                            <p class="text-gray-600 text-start leading-tight">Description of tool</p>
-                            <p class="text-gray-600 text-start leading-tight">Description of tool</p>
+                            <p class="font-semibold text-lg text-start leading-tight font-fancy text-[#722f37]">Le Grand
+                                Cru</p>
+                            <p class="text-gray-900 text-start leading-tight">Kalverstraat 45</p>
+                            <p class="text-gray-700 text-start leading-tight font-montserrat">1012 NX Amsterdam</p>
                         </div>
                     </div>
-
                 </li>
             </ol>
         </div>

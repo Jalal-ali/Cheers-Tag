@@ -5,12 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Cheers Tag</title>
-    <style>
-        .font-bodoni {
-            font-family: 'Libre Bodoni', 'Bodoni MT Condensed', serif;
-        }
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
+    <title>Maak je unieke boodschap</title>
+    <style>
+        .font-montserrat {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .font-fancy {
+            font-family: 'Dancing Script', cursive;
+        }
         .font-passenger {
             font-family: "Passenger Serif", serif;
         }
@@ -113,60 +118,68 @@
         <div class="flex items-center justify-center p-4 md:p-10 my-4 md:my-8">
             <!-- Author: FormBold Team -->
             <form class="w-full max-w-auto md:w-fit mx-auto mt-8 md:mt-20 p-4 md:p-5 bg-white rounded-lg shadow-xl">
-                <h2 class="text-xl md:text-2xl font-bold font-bodoni text-[#722f37] mb-4 md:mb-6">Feedback Form</h2>
+                <h2 class="text-2xl md:text-4xl font-bold font-passenger text-[#722f37] mb-4 md:mb-6">Maak je unieke boodschap</h2>
 
                 <div class="mb-4 md:mb-5">
                     <label class="block text-[#722f37] font-bold mb-1 md:mb-2" for="name">
-                        Full Name:
+                        Naam ontvanger* (verplicht)
                     </label>
-                    <input type="text" name="name" id="name" placeholder="Full Name"
-                        class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 md:py-3 px-4 md:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                    <input type="text" name="name" id="name" placeholder="Voor wie is het cadeau?"
+                        class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 md:py-3 px-4 md:px-4 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
                 </div>
 
                 <div class="-mx-2 md:-mx-3 flex flex-wrap">
                     <div class="w-full px-2 md:px-3 sm:w-1/2">
                         <div class="mb-4 md:mb-5">
                             <label class="block text-[#722f37] font-bold mb-1 md:mb-2" for="area">
-                                Area:
+                                Jouw voornaam
                             </label>
-                            <input type="text" name="area" id="area" placeholder="Enter area"
-                                class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 md:py-3 px-4 md:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                            <input type="text" name="area" id="area" placeholder="Jouw voornaam"
+                                class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 md:py-3 px-4 md:px-4 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
                         </div>
                     </div>
                     <div class="w-full px-2 md:px-3 sm:w-1/2">
                         <div class="mb-4 md:mb-5">
                             <label class="block text-[#722f37] font-bold mb-1 md:mb-2" for="city">
-                                City:
+                                Jouw achternaam
                             </label>
-                            <input type="text" name="city" id="city" placeholder="Enter city"
-                                class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 md:py-3 px-4 md:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                            <input type="text" name="city" id="city" placeholder="Jouw achternaam"
+                                class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 md:py-3 px-4 md:px-4 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
                         </div>
                     </div>
                 </div>
 
                 <div class="mb-4 md:mb-5">
                     <label class="block text-[#722f37] font-bold mb-1 md:mb-2" for="email">
-                        Email:
+                        Jouw roepnaam* (verplicht)
                     </label>
-                    <input type="email" name="email" id="email" placeholder="Enter your email"
-                        class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 md:py-3 px-4 md:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                    <input type="email" name="email" id="email" placeholder="Hoe wil je aangesproken worden?"
+                        class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 md:py-3 px-4 md:px-4 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
                 </div>
 
                 <div class="mb-4 md:mb-5">
                     <label class="block text-[#722f37] font-bold mb-1 md:mb-2" for="date">
-                        Date:
+                        Datum * (verplicht)
                     </label>
                     <input type="date" name="date" id="date"
-                        class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 md:py-3 px-4 md:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                        class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 md:py-3 px-4 md:px-4 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                </div>
+
+                <div class="mb-4 md:mb-5">
+                    <label class="block text-[#722f37] font-bold mb-1 md:mb-2" for="email">
+                        Jouw telefoonnummer (verplicht)
+                    </label>
+                    <input type="email" name="email" id="email" placeholder="06 12345678"
+                        class="w-full rounded-md border border-[#e0e0e0] bg-white py-2 md:py-3 px-4 md:px-4 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
                 </div>
 
                 <div class="mb-4 md:mb-5">
                     <label class="block text-[#722f37] font-bold mb-1 md:mb-2" for="feedback">
-                        Feedback:
+                        Jouw bericht (max 500 karakters)
                     </label>
                     <textarea
                         class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                        id="feedback" rows="4" placeholder="Enter your feedback"></textarea>
+                        id="feedback" rows="4" placeholder="Schrijf hier je persoonlijke boodschap..."></textarea>
                 </div>
 
                 <hr class="w-[100%] mx-auto text-gray-300 my-2">
@@ -174,7 +187,7 @@
                 <!--price plans section -->
                 <div class="w-full py-4">
                     <div class="flex-col justify-between pb-4">
-                        <h2 class="text-xl md:text-2xl font-bold font-bodoni text-[#722f37] mb-2">Feedback Form</h2>
+                        <h2 class="text-md md:text-xl font-bold font-passenger text-[#722f37] mb-2">Maak je bericht extra speciaal</h2>
                     </div>
 
                     <!-- pricing section stack started -->
@@ -187,15 +200,13 @@
                                     <img src="../assets/icons/camera.svg" alt="camera" class="h-7 w-7 md:h-9 md:w-9">
                                 </div>
                                 <div class="p-1 md:p-2">
-                                    <p class="font-semibold text-base md:text-lg text-start leading-tight">Tool with
-                                        sidebar</p>
-                                    <p class="text-gray-600 text-sm md:text-base text-start leading-tight">Description
-                                        of tool</p>
+                                    <p class="font-semibold font-fancy text-base md:text-lg text-start leading-tight">trenger</p>
+                                    <p class="text-gray-600 text-sm text-start leading-tight font-montserrat">Voeg een speciale foto toe aan je bericht</p>
                                 </div>
                             </div>
                             <!-- price and input section -->
                             <div class="flex items-center gap-x-2">
-                                <p class="text-[#722f37] text-sm md:text-base">€7.86</p>
+                                <p class="text-[#722f37] text-sm md:text-base font-montserrat">€ 1.95</p>
                                 <input type="radio" name="payment"
                                     class="checked:border-indigo-500 h-4 w-4 md:h-5 md:w-5" />
                             </div>
@@ -210,13 +221,13 @@
                                         class="h-7 w-7 md:h-9 md:w-9">
                                 </div>
                                 <div class="p-1 md:p-2">
-                                    <p class="font-semibold text-base md:text-lg">Tool with sidebar</p>
-                                    <span class="text-gray-600 text-sm md:text-base">Description of tool</span>
+                                    <p class="font-semibold font-fancy text-base md:text-lg">Sprealbericht</p>
+                                    <p class="text-gray-600 text-sm text-start leading-tight font-montserrat">Neem een persoonlijk audiobericht op</p>
                                 </div>
                             </div>
                             <!-- price and input section -->
                             <div class="flex items-center gap-x-2">
-                                <p class="text-[#722f37] text-sm md:text-base">€7.86</p>
+                                <p class="text-[#722f37] text-sm md:text-base font-montserrat">€ 2.95</p>
                                 <input type="radio" name="payment"
                                     class="checked:border-indigo-500 h-4 w-4 md:h-5 md:w-5" />
                             </div>
@@ -231,13 +242,13 @@
                                         class="h-7 w-7 md:h-9 md:w-9">
                                 </div>
                                 <div class="p-1 md:p-2">
-                                    <p class="font-semibold text-base md:text-lg">Tool with sidebar</p>
-                                    <span class="text-gray-600 text-sm md:text-base">Description of tool</span>
+                                    <p class="font-semibold font-fancy text-base md:text-lg">Videoboodschap</p>
+                                    <p class="text-gray-600 text-sm text-start leading-tight font-montserrat">Deel een videoboodschap bij je cadeau</p>
                                 </div>
                             </div>
                             <!-- price and input section -->
                             <div class="flex items-center gap-x-2">
-                                <p class="text-[#722f37] text-sm md:text-base">€7.86</p>
+                                <p class="text-[#722f37] text-sm md:text-base font-montserrat">€ 3.95</p>
                                 <input type="radio" name="payment"
                                     class="checked:border-indigo-500 h-4 w-4 md:h-5 md:w-5" />
                             </div>
@@ -306,7 +317,8 @@
                     <h4 class="text-lg text-white font-bold mb-3 text-[20px] font-passenger">Links</h4>
                     <ul class="text-sm  transition-all duration-500">
                         <li class="mb-3"><a href="../index.html" class="text-white hover:text-white">Home</a></li>
-                        <li class="mb-3"><a href="./werkt.html" class="text-white hover:text-white">Hoe het werkt</a></li>
+                        <li class="mb-3"><a href="./werkt.html" class="text-white hover:text-white">Hoe het werkt</a>
+                        </li>
                         <li class="mb-3"><a href="./over-ons.html" class="text-white hover:text-white">Over ons</a></li>
                         <li class="mb-3"><a href="#" class="text-white hover:text-white">Contact</a></li>
                         <li><a href="./partners.html" class="text-white hover:text-white">Partners</a></li>
@@ -316,7 +328,8 @@
                 <div class="lg:col-span-2 text-center sm:text-left">
                     <h4 class="text-lg text-white font-bold mb-3 text-[20px] font-passenger">Contact</h4>
                     <ul class="text-sm transition-all duration-500">
-                        <li class="mb-3"><a href="../index.html" class="text-white hover:text-white ">CheersTag.com</a></li>
+                        <li class="mb-3"><a href="../index.html" class="text-white hover:text-white ">CheersTag.com</a>
+                        </li>
                         <li class="mb-3"><a href="#" class="text-white hover:text-white">Amstelveen</a></li>
                         <li class="mb-3"><a href="#" class="text-white hover:text-white">info@cheerstag.com</a></li>
                         <li><a href="#" class="text-white hover:text-white">+31 (0)6 42752700</a></li>
