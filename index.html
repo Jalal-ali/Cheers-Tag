@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <title>CheersTag</title>
     <style>
+ 
         .font-passenger {
             font-family: "Passenger Serif", serif;
         }
@@ -15,12 +16,16 @@
         .font-montserrat {
             font-family: 'Montserrat', sans-serif;
         }
-        @media (min-width: 768px){
-            .inner-round {
-                background: rgb(255, 255, 255);
-                -webkit-mask-image: radial-gradient(ellipse 105% 127px at 100% 114%, /* Wider elliptical shape */ transparent 0, transparent 202px, /* Curve start */ black 46px /* Curve end */);
+        .inner-round {
+                background: transparent;
+                /* -webkit-mask-image: radial-gradient(ellipse 105% 127px at 100% 114%, Wider elliptical shape transparent 0, transparent 202px, Curve start black 46px Curve end); */
                 
             }
+        @media (min-width: 1024px){
+            .inner-round {
+        background: rgb(255, 255, 255);
+        -webkit-mask-image: radial-gradient(ellipse 115% 112px at 112% 108%, /* Wider elliptical shape */ transparent 0, transparent 265px, /* Curve start */ black 259px /* Curve end */);
+    }
         }
     </style>
 </head>
@@ -40,8 +45,8 @@
                 </div> -->
 
                 <!-- Logo -->
-                <div class="flex-shrink-0 md:absolute  md:-left-3 md:top-1 h-38 inner-round">
-                    <img class="h-10 md:h-10 lg:h-16 my-2 w-auto md:-rotate-20 " src="./assets/logo/Cheerstag.png"
+                <div class="flex-shrink-0 lg:absolute lg:-left-3 lg:top-1 md:h-22 pt-2 lg:h-38 inner-round">
+                    <img class="  h-10 md:h-1/2 lg:h-16 md:my-1 w-auto sm:mx-4 lg:-rotate-18 " src="./assets/logo/Cheerstag.png"
                         alt="Cheerstag logo">
                 </div>
 
@@ -50,21 +55,21 @@
                 <div class="hidden md:flex flex-1 justify-center items-center mx-auto">
                     <div class="flex space-x-4">
                         <a href="./index.html"
-                            class="text-[#802311] hover:text-[#802311] px-3 py-2 text-sm font-bold">Home</a>
+                            class="text-[#802311] hover:text-[#802311] px-3 py-2 text-sm font-semibold">Home</a>
                         <a href="./pages/boodschap.html"
-                            class="text-[#722f37] hover:text-[#802311] px-3 py-2 text-sm font-semibold">Maak je unieke
+                            class="text-[#0f363f] hover:text-[#802311] px-3 py-2 text-sm font-semibold">Maak je unieke
                             boodschap</a>
                         <a href="./pages/werkt.html"
-                            class="text-[#722f37] hover:text-[#802311] px-3 py-2 text-sm font-semibold">Hoe het
+                            class="text-[#0f363f] hover:text-[#802311] px-3 py-2 text-sm font-semibold">Hoe het
                             werkt</a>
                         <a href="./pages/over-ons.html"
-                            class="text-[#722f37] hover:text-[#802311] px-3 py-2 text-sm font-semibold">Over ons</a>
+                            class="text-[#0f363f] hover:text-[#802311] px-3 py-2 text-sm font-semibold">Over ons</a>
                     </div>
                 </div>
 
                 <!-- CTA Button -->
                 <div class="">
-                    <a class="mr-10 bg-[#722f37] text-white px-7 py-2 rounded-md hover:bg-[#5a252c] transition duration-300 hidden md:block"
+                    <a class="mr-10 text-[#0f363f] font-montserrat font-semibold px-7 py-2 rounded-md transition duration-300 hidden md:block"
                         href="./pages/partners.html">
                         <button>
                             Partners
@@ -149,14 +154,14 @@
     </section>
 
     <!-- footer started  -->
-    <footer class="w-full bg-[#0a6d71] text-white text-2xl py-8 px-4 sm:px-6">
+    <footer class="bg-[#0a6d71] text-white text-2xl py-5 px-4 sm:px-6">
         <div class="mx-auto max-w-7xl">
             <!-- Main Footer Content - Custom layout for mobile -->
-            <div class="flex flex-col mb-8 md:grid md:grid-cols-3 md:mx-10 md:gap-10 ">
+            <div class="flex flex-col md:grid md:grid-cols-3 md:mx-10 md:gap-10 ">
                 <!-- Brand Column  -->
                 <div class="space-y-4 mb-8 md:mb-0">
                     <!-- Heading centered on mobile, left on desktop -->
-                    <h4 class="text-sm font-montserrat text-center md:text-start">CheersTag.com</h4>
+                    <h4 class="text-sm font-montserrat text-center md:text-start"><a href="./index.html">CheersTag.com</a></h4>
 
                     <!-- Paragraph centered on mobile, left on desktop -->
                     <p class="text-sm leading-relaxed font-montserrat text-center md:text-start">
@@ -184,21 +189,21 @@
                     <div class="space-y-4 text-center">
                         <h4 class="text-sm font-montserrat text-center md:text-start">Links</h4>
                         <ul class="space-y-2">
-                            <li><a href="#"
+                            <li><a href="./index.html"
                                     class="text-sm hover:underline font-montserrat block text-center md:text-left">Home</a>
                             </li>
-                            <li><a href="#"
+                            <li><a href="./pages/werkt.html"
                                     class="text-sm hover:underline font-montserrat block text-center md:text-left">Hoe
                                     het
                                     werkt</a></li>
-                            <li><a href="#"
+                            <li><a href="./pages/over-ons.html"
                                     class="text-sm hover:underline font-montserrat block text-center md:text-left">Over
                                     ons</a>
                             </li>
                             <li><a href="#"
                                     class="text-sm hover:underline font-montserrat block text-center md:text-left">Contact</a>
                             </li>
-                            <li><a href="#"
+                            <li><a href="./pages/partners.html"
                                     class="text-sm hover:underline font-montserrat block text-center md:text-left">Partners</a>
                             </li>
                         </ul>
@@ -231,21 +236,6 @@
 
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <!-- Footer Bottom -->
-            <div class=" pt-6">
-                <div class="flex flex-col items- gap-4 text-sm sm:flex-row sm:justify-between">
-                    <!-- <span>© 2024 Cheers'Tag.com</span> -->
-                    <!-- <span>Alle rechten voorbehouden</span> -->
-                    <!-- <div class="flex flex-wrap justify-center gap-4 sm:gap-6 order-first sm:order-none">
-                    <a href="#" class="hover:underline">Alle rechten voorbehouden.</a>
-                </div> -->
-                    <!-- <div class="flex flex-wrap self-start gap-4 sm:gap-6 sm:order-none">
-                        <a href="#" class="hover:underline">Privacybeleid</a>
-                        <a href="#" class="hover:underline">Gebruiksvoorwaarden</a>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -299,16 +289,6 @@
         </div>
     </section> -->
 
-
-
-
-
-
-
-
-
-
-
     <script>
         // Toggle mobile menu
         document.getElementById('mobile-menu-button').addEventListener('click', function () {
@@ -329,5 +309,4 @@
         });
     </script>
 </body>
-
 </html>
