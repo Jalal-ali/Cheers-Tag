@@ -208,6 +208,7 @@
 
             </ol>
         </div> -->
+<<<<<<< HEAD
         <div class="mx-auto py-5 text-center items-center">
             <p class="text-base sm:text-md md:text-lg text-[#722f37] leading-relaxed md:leading-loose font-montserrat">
                 Klaar om je eerste digitale boodschap te maken?
@@ -219,12 +220,53 @@
         </button>
     </a>
 </div>
+=======
+        <div class="mx-auto py-5  text-center items-center">
+            <p class="text-base sm:text-md md:text-lg text-[#722f37] leading-relaxed md:leading-loose font-montserrat">
+                Klaar om je eerste digitale boodschap te maken?
+            </p>
+            <button
+                class="mt-4 hover:shadow-form w-auto rounded-md bg-[#339999] py-3 px-8 text-center text-base font-semibold text-white outline-none">
+                Maak je unieke boodschap
+            </button>
+>>>>>>> 4e2f3cc8b58fb262591847270347aaff7276d4a7
         </div>
     </section>
 
       <!-- footer  -->
         <?php include 'footer.php'; ?>
    
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+    <script>
+        // Toggle mobile menu
+        document.getElementById('mobile-menu-button').addEventListener('click', function () {
+            const menu = document.getElementById('mobile-menu');
+            const isHidden = menu.classList.contains('hidden');
+
+            // Toggle menu visibility
+            menu.classList.toggle('hidden');
+
+            // Toggle hamburger/close icons
+            const hamburger = this.querySelector('svg:not(.hidden)');
+            const close = this.querySelector('svg.hidden');
+            hamburger.classList.toggle('hidden');
+            close.classList.toggle('hidden');
+
+            // Update aria-expanded attribute
+            this.setAttribute('aria-expanded', isHidden ? 'true' : 'false');
+        });
+    </script>
+>>>>>>> 4e2f3cc8b58fb262591847270347aaff7276d4a7
 </body>
 
 </html>

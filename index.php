@@ -8,6 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <title>CheersTag</title>
     <style>
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 4e2f3cc8b58fb262591847270347aaff7276d4a7
         .font-passenger {
             font-family: "Passenger Serif", serif;
         }
@@ -35,6 +39,7 @@
                     </h1>
 
                     <!-- Button -->
+<<<<<<< HEAD
                     <a href="./welcome.html"
                         class="mt-16 mx-auto md:ms-8 block max-w-fit font-passenger px-8 py-4 text-2xl bg-[#044446] hover:bg-[#033336] text-white rounded-lg transition duration-300 text-center md:text-left"
                         role="button" aria-label="Creëer hier jouw unieke boodschap">
@@ -43,6 +48,14 @@
                         <span class="block text-lg mt-2">Voeg je tekst, audio of video toe.</span>
                     </a>
 
+=======
+                    <button
+                        class="mt-16 mx-auto md:ms-8 font-passenger px-8 py-4 text-2xl bg-[#044446] hover:bg-[#033336] text-white rounded-lg transition duration-300 text-center md:text-start">
+                        Creëer <span class="underline underline-offset-4 decoration-2">hier</span> jouw unieke
+                        boodschap!<br>
+                        <span class="block">Voeg je tekst, audio, of video toe.</span>
+                    </button>
+>>>>>>> 4e2f3cc8b58fb262591847270347aaff7276d4a7
                 </div>
 
                 <!-- Right Section (Image) -->
@@ -54,7 +67,11 @@
     </section>
 
     <!-- footer  -->
+<<<<<<< HEAD
     <?php include 'footer.php'; ?>
+=======
+        <?php include 'footer.php'; ?>
+>>>>>>> 4e2f3cc8b58fb262591847270347aaff7276d4a7
 
 
 
@@ -105,5 +122,8 @@
     </section> -->
 
 </body>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4e2f3cc8b58fb262591847270347aaff7276d4a7
 </html>

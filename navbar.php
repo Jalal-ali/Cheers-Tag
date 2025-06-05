@@ -69,7 +69,11 @@
                 <div class="">
                     <a class="mr-10 text-[#0f363f] font-montserrat font-semibold px-7 py-2 rounded-md transition duration-300 hidden md:block"
                         href="partners.php">
+<<<<<<< HEAD
                         <button class="cursor-pointer hover:text-[#802311]">
+=======
+                        <button class="cursor-pointer">
+>>>>>>> 4e2f3cc8b58fb262591847270347aaff7276d4a7
                             Partners
                         </button>
                     </a>
@@ -120,6 +124,7 @@
         </div>
     </nav>
     <!-- navbar section ended -->
+<<<<<<< HEAD
 
 
     <script>
@@ -141,6 +146,8 @@
             this.setAttribute('aria-expanded', isHidden ? 'true' : 'false');
         });
     </script>
+=======
+>>>>>>> 4e2f3cc8b58fb262591847270347aaff7276d4a7
     
 </body>
 </html>

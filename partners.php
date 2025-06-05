@@ -20,6 +20,21 @@
         .font-passenger {
             font-family: "Passenger Serif", serif;
         }
+<<<<<<< HEAD
+=======
+        /* section.py-16.bg-\[\#ffe8e6\]{
+            display: flex;  
+            padding: 30px;
+             }
+             ol.lg\:w-\[45\%\].w-full.space-y-4.p-2{
+                width: 100% !important;
+            }
+            .flex.justify-center.w-full {
+    width: 50% !important;
+}  */
+
+
+>>>>>>> 4e2f3cc8b58fb262591847270347aaff7276d4a7
     </style>
 </head>
 
@@ -149,6 +164,54 @@
       <!-- footer  -->
         <?php include 'footer.php'; ?>
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        // Toggle mobile menu
+        document.getElementById('mobile-menu-button').addEventListener('click', function () {
+            const menu = document.getElementById('mobile-menu');
+            const isHidden = menu.classList.contains('hidden');
+
+            // Toggle menu visibility
+            menu.classList.toggle('hidden');
+
+            // Toggle hamburger/close icons
+            const hamburger = this.querySelector('svg:not(.hidden)');
+            const close = this.querySelector('svg.hidden');
+            hamburger.classList.toggle('hidden');
+            close.classList.toggle('hidden');
+
+            // Update aria-expanded attribute
+            this.setAttribute('aria-expanded', isHidden ? 'true' : 'false');
+        });
+    </script>
+>>>>>>> 4e2f3cc8b58fb262591847270347aaff7276d4a7
 </body>
 
 </html>
